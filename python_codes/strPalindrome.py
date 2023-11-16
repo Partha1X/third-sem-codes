@@ -1,4 +1,4 @@
-# 3. Write a Python Program to Check Whether a Given String is Palindrome or Not
+# 3. Write a Python Program to Check Whether a Given 'String is Palindrome' or Not
 
 # Take input from the user
 s = input("Enter the Value: ")
