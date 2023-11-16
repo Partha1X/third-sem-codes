@@ -1,4 +1,4 @@
-#4. WAP to Check whether a No is Prime or not (16.11.2023)
+#4. WAP to Check whether a No is Prime or not
 
 n = int(input("Enter a Number: "))
 c = 0
