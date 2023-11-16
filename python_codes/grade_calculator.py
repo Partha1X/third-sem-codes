@@ -1,3 +1,13 @@
+#9.
+'''WAP to calculate total marks, percentage and grade of a student. Marks obtained in each of the three subjects are to be input by the user. Assign grades according to the following criteria :
+a. Grade A: Percentage >=80
+b. Grade B: Percentage>=70 and <80
+c. Grade C: Percentage>=60 and <70
+d. Grade D: Percentage>=40 and <60
+e. Grade E: Percentage<40
+
+'''
+
 #Input Marks From the Subjects
 s1=float(input("Enter mark for Mathematics :"))
 s2=float(input("Enter mark for Physics :"))
