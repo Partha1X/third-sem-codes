@@ -1,4 +1,4 @@
-#28.a) WAP to find of the sum of all digits of a Number 
+#28.a) WAP to find of the 'sum of all digits' of a Number 
 
 n = int(input("Enter a Number:"))
 s = 0
