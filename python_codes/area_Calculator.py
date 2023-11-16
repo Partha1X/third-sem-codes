@@ -1,7 +1,6 @@
 #18. Write a menu Driven Program to Find the Area of a Square ,rectangle and Circle , after receving appropriate input from the user
 
 import math
-
 def square_area(side):
     return side * side
 
