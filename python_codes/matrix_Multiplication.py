@@ -1,4 +1,4 @@
-#25. Write a Program in Python to Muliply two matrices Without Using Library Function
+#25. Write a Program in Python to Muliply two matrices 'Without Using Library' Function
 
 # Function to multiply two matrices
 def multiply_matrices(mat1, mat2):
