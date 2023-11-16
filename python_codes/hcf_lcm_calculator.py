@@ -1,4 +1,4 @@
-#1.a) Function to calculate HCF/GCD
+#1.a) Function to calculate HCF/GCD(16.11.2023)
 
 def calculate_hcf(x, y):
     while y != 0:
