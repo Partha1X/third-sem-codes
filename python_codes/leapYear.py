@@ -1,3 +1,5 @@
+#1.b) Check Whether a given Year is a Leap Year or not (16.11.2023)
+
 yr = int (input("Enter a Year :"))
 if yr%100==0:
     if yr%400==0:
