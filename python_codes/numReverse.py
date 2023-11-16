@@ -1,4 +1,4 @@
-#28.b) WAP to reverse a Number
+#28.b) WAP to 'reverse a Number'
 
 num = int(input("Enter a Number: "))
 reversed_num = 0# Initialize variables
