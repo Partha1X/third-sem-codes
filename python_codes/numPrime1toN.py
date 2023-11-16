@@ -1,4 +1,5 @@
-#16. WAP to print all Prime Numbers between 1 and n (numbers having only two factors,1 & itsself)
+#16. WAP to print all Prime Numbers between 1 and n
+#(numbers having only two factors,1 & itsself)
 
 n = int(input("Enter The Upper Limit: "))
 print("The Prime Numbers are:")
