@@ -1,4 +1,4 @@
-#19. Write a Program to Implemant a Simple Calculator 
+#19. Write a Program to Implemant a Simple Calculator(+,-,*,/)
 
 def add(x, y):
     return x + y
