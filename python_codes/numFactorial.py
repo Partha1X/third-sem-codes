@@ -1,4 +1,4 @@
-#24. Write a Python Program to Find the factorial of a Number 
+#24. Write a Python Program to Find the factorial of a Number(Using both Loop)
 
 #a>> uing for Loop :
 
