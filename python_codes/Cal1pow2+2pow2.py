@@ -1,6 +1,5 @@
 # Calculate s = 1^2 + 2^2 + 3^2 + ... up to n using math function
 
-
 import math 
 n = int(input("Enter the value of n:"))
 s = 0
