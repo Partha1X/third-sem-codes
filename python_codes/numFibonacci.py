@@ -1,4 +1,4 @@
-# 7. WAP to Print Fibonacci Series up to n 
+# 7. WAP to Print Fibonacci Series up to n number
 
 # Take input from the user for the upper limit
 n = int(input("Enter the Upper Limit: "))
