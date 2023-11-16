@@ -1,5 +1,5 @@
-#15. WAP to receive temperature  in Celsius .Then Output Value in Fahrenheit[Formula : (0°C × 9/5) + 32 = 32°F ]
-
+#15. WAP to receive temperature  in Celsius .Then Output Value in Fahrenheit
+#[Formula : (0°C × 9/5) + 32 = 32°F ]
 # Function to convert Celsius to Fahrenheit
 def cel_to_fahr(celsius):
     return (celsius * 9/5) + 32
