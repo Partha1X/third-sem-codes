@@ -1,7 +1,6 @@
 # 5. Check Whether a Number is Armstrong or Not 
 
 import math 
-
 # Take input from the user
 n = int(input("Enter a Number: "))
 tmp = n
