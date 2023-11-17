@@ -19,3 +19,15 @@ while count < n:
 
 # Print the final sum after the loop
 print("\nSum =", s)
+
+
+#Another Method :👇
+'''s = 0
+p = 0
+n = int(input("Enter a value for n: "))
+
+for i in range(1, n + 1):  # Corrected the range to start from 1
+    p = p + i
+    s = s + p
+
+print(s)'''
