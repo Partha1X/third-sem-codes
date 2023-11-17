@@ -34,3 +34,18 @@ try:
     print("Area of triangle:", area)
 except ValueError as e:
     print(e)
+
+''''
+This code first defines a function "triangle_area()" that takes the side lengths of a triangle as arguments.
+The function checks if any side length is negative, in which case it raises a "ValueError".
+It also checks if the sides satisfy the triangle inequality, in which case it raises another "ValueError".
+
+If no errors are raised, the function calculates
+the semiperimeter 's' of the triangle and then uses Heron's formula to calculate the area.
+Finally, the function returns the area.
+
+The main part of the code prompts the user to enter the side lengths of the triangle,
+converts them to floats,and calls the "triangle_area()" function with the user-entered values.
+If the function raises an error, the error message is printed to the console.
+Otherwise, the area of the triangle is printed.
+'''
