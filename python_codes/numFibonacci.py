@@ -1,12 +1,11 @@
 #Write a program to find the first ‘n’ terms of Fibonacci series(PyQ2020)
+
 n_terms = int(input ("How many terms the user wants to print? "))  
-  
 # First two terms  
 n_1 = 0  
 n_2 = 1  
 count = 0  
-  
-# Now, we will check if the number of terms is valid or not  
+  # Now, we will check if the number of terms is valid or not  
 if n_terms <= 0:  
     print ("Please enter a positive integer, the given number is not valid")  
 # if there is only one term, it will return n_1  
@@ -23,6 +22,12 @@ else:
         n_1 = n_2  
         n_2 = nth  
         count += 1  
+
+''''The Fibonacci series is named after an Italian mathematician named Leonardo Fibonacci.
+He introduced this sequence to the Western world through his
+book "Liber Abaci" (The Book of Calculation), which was published in 1202.
+However, Fibonacci himself did not discover the sequence; it had been previously
+described in Indian mathematics.'''
 
 '''
 # 7. WAP to Print Fibonacci Series up to n number
