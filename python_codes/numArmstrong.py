@@ -53,3 +53,10 @@ except ValueError:
     print("Error: Please enter a valid integer for the limit.")
 
 '''
+
+'''
+An Armstrong number (also known as a narcissistic, pluperfect,
+or pluperfect digital invariant number) is a
+number that is the sum of its own digits each raised
+to the power of the number of digits in that number.
+'''
