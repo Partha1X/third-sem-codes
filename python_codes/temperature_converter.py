@@ -1,12 +1,41 @@
-#15. WAP to receive temperature  in Celsius .Then Output Value in Fahrenheit
-#[Formula : (0°C × 9/5) + 32 = 32°F ]
-# Function to convert Celsius to Fahrenheit
-def cel_to_fahr(celsius):
-    return (celsius * 9/5) + 32
+#15. WAP to receive temperature  in Celsius Output in Fahrenheit (PyQ2019)
+'''
+Formula in BODMAS :
+Celsius to Fahrenheit: (temp * 9/5) + 32
+Fahrenheit to Celsius: (temp - 32) * 5/9
+'''
 
-# Input: Receive temperature in Celsius from the user
-celsius_temperature = float(input("Enter temperature in Celsius: "))
+def tempConvert(temp, scale):
+    """
+    Converts temperature between Celsius and Fahrenheit scales.
 
-# Output: Convert and display the temperature in Fahrenheit
-fahrenheit_temperature = cel_to_fahr(celsius_temperature)
-print(f"{celsius_temperature} degrees Celsius is equal to {fahrenheit_temperature:.2f} degrees Fahrenheit.")
+    Parameters:
+    - temp: Temperature value to be converted.
+    - scale: The scale of the temperature, 'C' for Celsius, 'F' for Fahrenheit.
+
+    Returns:
+    - Converted temperature value.
+    """
+    if scale == 'C':
+        convertedTemp = (temp - 32) * 5 / 9
+        convertedTempName = "Fahrenheit"
+        return convertedTemp, convertedTempName
+    elif scale == 'F':
+        convertedTemp = (temp * 9 / 5) + 32
+        convertedTempName = "Celsius"
+        return convertedTemp, convertedTempName
+    else:
+        print("Invalid scale")
+        return None, None
+# Prompt the user for a temperature
+temp = float(input("Enter a temperature: "))
+# Prompt the user for the scale
+scale = input("Enter the scale (C or F): ")
+# Convert the temperature using the tempConvert function
+convertedTemp, convertedTempName = tempConvert(temp, scale)
+# Check if there is a valid conversion
+if convertedTemp is not None:
+    # Print the converted temperature and its name
+    print("Converted temperature: ", convertedTemp, "in", convertedTempName)
+else:
+    print("Invalid scale")
