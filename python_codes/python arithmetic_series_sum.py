@@ -5,6 +5,11 @@ s = n/2.(2a + (n - 1)d) '''
   Common Difference  = 2 #User input
     Number of Terms  = 4 #User input
 sum of The Arithmatic Series= 16 #Result
+
+The key difference is how the terms in the series are generated:
+
+~In an arithmetic series, each term is obtained by adding a fixed number to the previous term.
+~In a geometric series, each term is obtained by multiplying the previous term by a fixed number.
 '''
 
 def arithmetic_series_sum(a, d, n):
