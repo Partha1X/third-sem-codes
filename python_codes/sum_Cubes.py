@@ -1,4 +1,4 @@
-# Sum of Cubes of Consecutive Integers Program upto n
+# Sum of Cubes of Consecutive Integers Program upto n(1^3+2^3+3^3...+n^3)
 
 def sum_cubes_consecutive_integers(n):
     return ((n * (n + 1)) // 2) ** 2
