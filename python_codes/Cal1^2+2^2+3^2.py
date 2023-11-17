@@ -1,10 +1,9 @@
-# Calculate s = 1^2 + 2^2 + 3^2 + ... up to n using math function
+# Calculate 1^2+2^2+3^2 if n>0; otherwise, it prints an error(PyQ2019)
 
-import math 
-n = int(input("Enter the value of n:"))
-s = 0
-for i in range(1, n+1):
-    s = s + math.pow(i, 2)  # in floating point
-    # s = s + int(math.pow(i, 2))  # in integer
+n = int(input("Enter a positive integer: "))
 
-print("Sum =", s)
+if n > 0:
+  s = 1**2 + 2**2 + 3**2
+  print("Sum=",s)
+else:
+  print("Error: Please enter a positive integer.")
