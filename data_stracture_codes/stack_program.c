@@ -22,17 +22,17 @@ int main() {
                 push();
                 break;
             case 2:
-                pop(); // Added missing semicolon here
+                pop();
                 break;
             case 3:
                 display();
                 break;
             case 0:
-                break; // Added a case to exit the loop when 0 is entered
+                break; 
             default:
                 printf("Invalid choice\n");
         }
-    } while (ch != 0); // Moved the loop condition here
+    } while (ch != 0); 
 
     return 0;
 }
@@ -45,7 +45,7 @@ void push() {
         printf("Enter a number: ");
         scanf("%d", &i);
         top = top + 1;
-        stack[top] = i; // Changed "a" to "stack"
+        stack[top] = i; 
         printf("Item inserted\n");
     }
 }
@@ -65,8 +65,8 @@ void display() {
     } else {
         printf("Items are: ");
         for (int j = top; j >= 0; j--) {
-            printf("%d ", stack[j]); // Changed "system.out.printf" to "printf" and added a format specifier
+            printf("%d ", stack[j]); 
         }
-        printf("\n"); // Added a newline to separate items
+        printf("\n"); 
     }
 }
