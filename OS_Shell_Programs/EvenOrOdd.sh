@@ -1,12 +1,12 @@
 : <<COMMENT
-Write a Shell Program to Check Whether a Given No is Even or Odd.
+Write a Shell Program to Check Whether a Given No is Even or Odd
 COMMENT
 
-echo -n "Enter a No: "
+echo -n "Enter a Number: "
 read n
 
 if ((n % 2 == 0)); then #if [ $((n % 2)) -eq 0 ];
-    echo "The number is even."
+    echo "The number is even"
 else
-    echo "The number is odd."
+    echo "The number is odd"
 fi
