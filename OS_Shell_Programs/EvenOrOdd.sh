@@ -1,5 +1,5 @@
 : <<COMMENT
-1. Write a Shell Program to Check Whether a Given No is Even or Odd.
+Write a Shell Program to Check Whether a Given No is Even or Odd.
 COMMENT
 
 echo -n "Enter a No: "
