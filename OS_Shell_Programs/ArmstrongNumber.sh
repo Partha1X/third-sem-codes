@@ -12,7 +12,7 @@ while ((n!=0)); do
 done
 
 if ((s==temp)); then
-    echo "The Number $temp is Armstrong."
+    echo "The Number $temp is Armstrong"
 else
-    echo "The Number $temp is Not Armstrong."
+    echo "The Number $temp is Not Armstrong"
 fi
