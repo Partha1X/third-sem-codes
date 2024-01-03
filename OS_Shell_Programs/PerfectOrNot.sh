@@ -1,12 +1,12 @@
 : <<COMMENT
  WAP to Check Whether a Number is Perfect or Not
-The sum of all positive divisors of a number,
- excluding the number itself,
- equals the original number(eg-1 + 2 + 4 + 7 + 14 = 28)
+ [ The sum of all positive divisors of a number,
+   excluding the number itself,
+   equals the original number(eg-1 + 2 + 4 + 7 + 14 = 28) ]
 COMMENT
 
 
-echo -n "Enter a No: "
+echo -n "Enter a Number: "
 read n
 s=0
 
