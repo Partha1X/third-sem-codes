@@ -1,6 +1,6 @@
 # WAP to Check Whether a Given Number is Prime or Not
 
-echo -n "Enter a No: "
+echo -n "Enter a Number: "
 read number
 count=0
 
@@ -12,7 +12,7 @@ do
 done
 
 if ((count == 2)); then
-    echo "The Number $number is Prime."
+    echo "The Number $number is Prime"
 else
-    echo "The Number $number is Not Prime."
+    echo "The Number $number is Not Prime"
 fi
